@@ -1,0 +1,20 @@
+{
+    "default":{
+        "title": "Default Page",
+        "route": "/default",
+        "html_file": "html/default.html",
+        "css_file": "css/default.css"
+    },
+    "home":{
+        "title": "Home",
+        "route": "/home",
+        "html_file": "html/home.html",
+        "css_file": "css/home.css"
+    },
+    "error_404":{
+        "title": "404 Error",
+        "route": "/default",
+        "html_file": "html/default.html",
+        "css_file": "css/default.css"
+    }
+}

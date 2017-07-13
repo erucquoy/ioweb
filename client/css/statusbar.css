@@ -1,0 +1,100 @@
+.app-statusbar {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.9);
+  display: none;
+  z-index: 20;
+  -webkit-box-shadow: -1px 0px 6px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: -1px 0px 6px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: -1px 0px 6px 0px rgba(0, 0, 0, 0.1);
+}
+.app-statusbar .app-statusbar-icon {
+  float: left;
+  margin: 10px 10px 0px 10px;
+  color: #FFF;
+}
+.app-statusbar .app-statusbar-icon [class^=icon] {
+  font-size: 20px;
+  line-height: 20px;
+}
+.app-statusbar .app-statusbar-icon .app-spinner {
+  margin: 0px 5px 0px 0px;
+}
+.app-statusbar .app-statusbar-text {
+  font-weight: 600;
+  color: #FFF;
+  float: left;
+  padding-right: 30px;
+  line-height: 40px;
+}
+.app-statusbar .app-statusbar-body {
+  float: left;
+  width: 100%;
+  padding-right: 30px;
+}
+.app-statusbar .app-statusbar-close {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  margin-top: -6px;
+  cursor: pointer;
+  opacity: 0.5;
+  color: #FFF;
+}
+.app-statusbar .app-statusbar-close:hover {
+  opacity: 0.8;
+}
+.app-statusbar.app-statusbar-top {
+  bottom: auto;
+  top: 0px;
+}
+.app-statusbar.app-statusbar-default {
+  background: rgba(255, 255, 255, 0.9);
+}
+.app-statusbar.app-statusbar-default .app-statusbar-text,
+.app-statusbar.app-statusbar-default .app-statusbar-close,
+.app-statusbar.app-statusbar-default .app-statusbar-icon {
+  color: #454545;
+}
+.app-statusbar.app-statusbar-primary {
+  background: rgba(41, 47, 67, 0.9);
+}
+.app-statusbar.app-statusbar-primary .app-statusbar-text,
+.app-statusbar.app-statusbar-primary .app-statusbar-close,
+.app-statusbar.app-statusbar-primary .app-statusbar-icon {
+  color: #FFF;
+}
+.app-statusbar.app-statusbar-info {
+  background: rgba(79, 181, 221, 0.9);
+}
+.app-statusbar.app-statusbar-info .app-statusbar-text,
+.app-statusbar.app-statusbar-info .app-statusbar-close,
+.app-statusbar.app-statusbar-info .app-statusbar-icon {
+  color: #FFF;
+}
+.app-statusbar.app-statusbar-success {
+  background: rgba(118, 171, 60, 0.9);
+}
+.app-statusbar.app-statusbar-success .app-statusbar-text,
+.app-statusbar.app-statusbar-success .app-statusbar-close,
+.app-statusbar.app-statusbar-success .app-statusbar-icon {
+  color: #FFF;
+}
+.app-statusbar.app-statusbar-warning {
+  background: rgba(246, 159, 0, 0.9);
+}
+.app-statusbar.app-statusbar-warning .app-statusbar-text,
+.app-statusbar.app-statusbar-warning .app-statusbar-close,
+.app-statusbar.app-statusbar-warning .app-statusbar-icon {
+  color: #FFF;
+}
+.app-statusbar.app-statusbar-danger {
+  background: rgba(240, 78, 81, 0.9);
+}
+.app-statusbar.app-statusbar-danger .app-statusbar-text,
+.app-statusbar.app-statusbar-danger .app-statusbar-close,
+.app-statusbar.app-statusbar-danger .app-statusbar-icon {
+  color: #FFF;
+}

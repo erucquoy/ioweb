@@ -1,0 +1,10 @@
+{
+    "web":{
+        "domain": "localhost",
+        "port": 80,
+        "tls_port":443,
+        "tls_key_file": "files/keys/privkey.pem",
+        "tls_cert_file": "files/keys/fullchain.pem",
+        "session_cookie": "IOSESSID"
+    }
+}

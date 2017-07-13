@@ -1,0 +1,25 @@
+{
+  "name": "@private/ioweb",
+  "version": "1.0.0",
+  "description": "IOWeb is a web server framework based on socket.io/nodejs/express",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.14.1",
+    "request": "^2.79.0",
+    "socket.io": "^1.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erucquoy/ioweb.git"
+  },
+  "author": "Edouard Rucquoy",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/erucquoy/ioweb/issues"
+  },
+  "homepage": "https://github.com/erucquoy/ioweb#readme"
+}
